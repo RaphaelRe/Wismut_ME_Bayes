@@ -1,7 +1,10 @@
 # Wismut_ME_Bayes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15050372.svg)](https://doi.org/10.5281/zenodo.15050372)
+---
+
 *Code will not run. Data are not openly available.*
-Results of all Markov chains can be downloaded at LINK
+Results of all Markov chains can be downloaded at [https://zenodo.org/records/15050372](https://zenodo.org/records/15050372).
 
 Plots and results of the tables are generated from
 
