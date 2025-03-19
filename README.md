@@ -2,7 +2,7 @@
 
 *Code will not run. Data are not openly available.*
 Results of all Markov chains can be downloaded at
-Plots and results of the tables are generated from `analyze_application.ipynb` and `analyze_simulation_study.ipynb`and can be reproduced from the raw chains. It is necessary to adapt the paths to the outputs beforehand. Alternatively save the results in a new directory in the root path with the name `results`.
+Plots and results of the tables are generated from `analyze_application.ipynb` and  `analyze_simulation_study.ipynb`and can be reproduced from the raw chains. It is necessary to adapt the paths to the outputs beforehand. Alternatively save the results in a new directory in the root path with the name `results`.
 
 ## Structure
 
@@ -23,6 +23,9 @@ Plots and results of the tables are generated from `analyze_application.ipynb` a
     Containing all packages with versions to build a virtual environment. Tested on python 3.9 and 3.11.
 
 ##### File tree
+
+```
+```
 
  .
 ├──  application
@@ -59,3 +62,5 @@ Plots and results of the tables are generated from `analyze_application.ipynb` a
     ├──  UnsharedError.py
     └──  update.py
 
+```
+```
