@@ -28,6 +28,9 @@ Alternatively save the results in a new directory in the root path with the name
 - `wismut/`
     Contains the MCMC algorithm and utility modules containing functions for pre- and post-processing.
 
+- `data/`
+    Contains the used data. As data cannot be shared, it just holds the pseudo data used to generate simulated data, that would be stored in the same directory.
+
 #### Other files
 
 - `requirements.txt`
@@ -40,8 +43,9 @@ Alternatively save the results in a new directory in the root path with the name
 ├── application
 │   ├── analyze_application.ipynb
 │   ├── fit_real_data_8_chains.ipynb
-│   ├── profile_chain_paper.py
 │   └── run_application.sh
+├── data
+│   └── pseudo_data.txt
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
