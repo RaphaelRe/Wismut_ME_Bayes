@@ -3,7 +3,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15050372.svg)](https://doi.org/10.5281/zenodo.15050372)
 ---
 
-*Code will not run. Data are not openly available.*
+Code was developed and executed under Debian GNU/Linux 12 (bookworm).
+
+*Code will not run for the application. Data is not openly available.*
 Results of all Markov chains can be downloaded at [https://zenodo.org/records/15050372](https://zenodo.org/records/15050372).
 
 Plots and results of the tables are generated from
@@ -23,7 +25,7 @@ Alternatively save the results in a new directory in the root path with the name
     Contains the code, that was used to run get the results on the data of the Wismut cohort. `run_application.sh` is a shell script that runs alls jupyter notebooks.
 
 - `simulation_study/`
-    Contains the code, that was used run the simulation_study. The file `simulate_data.ipynb` uses an *R kernel*. Not python.
+    Contains the code, that was used run the simulation_study. The file `simulate_data.ipynb` uses an *R kernel*. Not python. It can be used to generate all data sets of the simulation study. Afterwards, it is possible to run the full simulation study. See also the shell script `run_simulation_study.sh`.
 
 - `wismut/`
     Contains the MCMC algorithm and utility modules containing functions for pre- and post-processing.
