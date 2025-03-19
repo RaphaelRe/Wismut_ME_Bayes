@@ -36,41 +36,40 @@ Alternatively save the results in a new directory in the root path with the name
 #### File tree
 
 ```
- .
-├──  application
-│   ├──  analyze_application.ipynb
-│   ├──  fit_real_data_8_chains.ipynb
-│   └──  run_application.sh
-├──  LICENSE
-├──  README.md
-├── 󰌠 requirements.txt
-├──  simulation_study
-│   ├──  analyze_simulation_study.ipynb
-│   ├──  other
-│   │   ├──  find_parameters_misspec.ipynb
-│   │   └──  simulate_data.ipynb
-│   ├──  plots
-│   ├──  run_model_b3-m5-missspec1.ipynb
-│   ├──  run_model_b3-m5-missspec2.ipynb
-│   ├──  run_model_b3-m5-naive.ipynb
-│   ├──  run_model_b3-m5-true.ipynb
-│   ├──  run_model_b3-m5.ipynb
-│   ├──  run_model_b6-m5-naive.ipynb
-│   ├──  run_model_b6-m5-true.ipynb
-│   ├──  run_model_b6-m5.ipynb
-│   └──  run_simulation_study.sh
-└──  wismut
-    ├──  __init__.py
-    ├──  analyze_chains.py
-    ├──  basics.py
-    ├──  ErrorComponent.py
-    ├──  LatentVariables.py
-    ├──  MCMC.py
-    ├──  Parameter.py
-    ├──  UncertainFactor.py
-    ├──  UnsharedError.py
-    └──  update.py
-
+.
+├── application
+│   ├── analyze_application.ipynb
+│   ├── fit_real_data_8_chains.ipynb
+│   ├── profile_chain_paper.py
+│   └── run_application.sh
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── simulation_study
+│   ├── analyze_simulation_study.ipynb
+│   ├── other
+│   │   ├── find_parameters_misspec.ipynb
+│   │   └── simulate_data.ipynb
+│   ├── run_model_b3-m5.ipynb
+│   ├── run_model_b3-m5-missspec1.ipynb
+│   ├── run_model_b3-m5-missspec2.ipynb
+│   ├── run_model_b3-m5-naive.ipynb
+│   ├── run_model_b3-m5-true.ipynb
+│   ├── run_model_b6-m5.ipynb
+│   ├── run_model_b6-m5-naive.ipynb
+│   ├── run_model_b6-m5-true.ipynb
+│   └── run_simulation_study.sh
+└── wismut
+    ├── analyze_chains.py
+    ├── basics.py
+    ├── ErrorComponent.py
+    ├── __init__.py
+    ├── LatentVariables.py
+    ├── MCMC.py
+    ├── Parameter.py
+    ├── UncertainFactor.py
+    ├── UnsharedError.py
+    └── update.py
 ```
 
 ```
