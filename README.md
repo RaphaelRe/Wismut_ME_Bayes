@@ -4,21 +4,24 @@
 Results of all Markov chains can be downloaded at LINK
 Plots and results of the tables are generated from
 
-- `analyze_application.ipynb` and  
+- `analyze_application.ipynb`
 - `analyze_simulation_study.ipynb`
-Results can be reproduced from the raw chain samples. It is necessary to adapt the paths to the outputs beforehand. Alternatively save the results in a new directory in the root path with the name `results`.
+
+Results can be reproduced from the raw chain samples.
+It is necessary to adapt the paths to the outputs beforehand.
+Alternatively save the results in a new directory in the root path with the name `results`.
 
 ## Structure
 
 #### Directories
 
-- `application`
+- `application/`
     Contains the code, that was used to run get the results on the data of the Wismut cohort. `run_application.sh` is a shell script that runs alls jupyter notebooks.
 
-- `simulation_study`
+- `simulation_study/`
     Contains the code, that was used run the simulation_study. The file `simulate_data.ipynb` uses an *R kernel*. Not python.
 
-- `wismut`
+- `wismut/`
     Contains the MCMC algorithm and utility modules containing functions for pre- and post-processing.
 
 #### Other files
