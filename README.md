@@ -1,12 +1,16 @@
 # Wismut_ME_Bayes
 
 *Code will not run. Data are not openly available.*
-Results of all Markov chains can be downloaded at
-Plots and results of the tables are generated from `analyze_application.ipynb` and  `analyze_simulation_study.ipynb`and can be reproduced from the raw chains. It is necessary to adapt the paths to the outputs beforehand. Alternatively save the results in a new directory in the root path with the name `results`.
+Results of all Markov chains can be downloaded at LINK
+Plots and results of the tables are generated from
+
+- `analyze_application.ipynb` and  
+- `analyze_simulation_study.ipynb`
+Results can be reproduced from the raw chain samples. It is necessary to adapt the paths to the outputs beforehand. Alternatively save the results in a new directory in the root path with the name `results`.
 
 ## Structure
 
-##### Directories
+#### Directories
 
 - `application`
     Contains the code, that was used to run get the results on the data of the Wismut cohort. `run_application.sh` is a shell script that runs alls jupyter notebooks.
@@ -17,16 +21,14 @@ Plots and results of the tables are generated from `analyze_application.ipynb` a
 - `wismut`
     Contains the MCMC algorithm and utility modules containing functions for pre- and post-processing.
 
-##### Other files
+#### Other files
 
 - `requirements.txt`
     Containing all packages with versions to build a virtual environment. Tested on python 3.9 and 3.11.
 
-##### File tree
+#### File tree
 
 ```
-```
-
  .
 ├──  application
 │   ├──  analyze_application.ipynb
@@ -63,4 +65,5 @@ Plots and results of the tables are generated from `analyze_application.ipynb` a
     └──  update.py
 
 ```
+
 ```
